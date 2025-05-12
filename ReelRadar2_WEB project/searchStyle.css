@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("assets/css/images/bg01.png");
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("assets/css/images/bg01.png");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("assets/css/images/bg01.png");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("assets/css/images/bg01.png");
+		background-color: #f7f7f7;
+		background-position: top left, top left;
+		background-repeat: repeat-x, repeat;
+		background-size: 100% 30em, auto;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13pt;
+		color: #696969;
+		font-weight: 300;
+		line-height: 2.25em;
+}
+
+h1{
+    position: absolute;
+    top: 15%;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.search-bar {
+    width: 500px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
